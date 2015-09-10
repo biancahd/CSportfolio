@@ -13,6 +13,11 @@
     color: black;
  }
 
+p, li, #definition2a {
+    margin-left: 4%;
+    width: 90%;
+    text-align: justify;
+}
 h1 {
     color: orchid;
     font-family:"Courier New";
@@ -21,8 +26,10 @@ h1 {
 }
 #picbee {
     position:static;
-    float:right;
-    margin-left: 6px;
+    float:left;
+    margin-left: 1.5%;
+    margin-right: 2%;
+    width: 19%;
 }
 
 #lilbee1 {
@@ -32,14 +39,15 @@ h1 {
 }
 #littlebio {
     left: 5em;
+    width: 90%;
+    text-align: justify;
 }
 #definition2a {
-    color: darkgoldenrod;
-    font-style: "Times New Roman";
+    color: rgb(194, 133, 194);
 }
 #defcs {
     left: 10em;
-    color: darkgoldenrod;
+    color: rgb(194, 133, 194);
 }
 #smallf {
     font-size: black .8 em;

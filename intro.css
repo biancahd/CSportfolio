@@ -40,8 +40,7 @@ h1 {
    position:static;
     float:center;
     margin-left: 5%;
-    margin-right: 2%;
-    width: 30%;
+    width: 400px;
 }
 
 #picsummit {
@@ -75,6 +74,12 @@ h1 {
     margin-right: 10%;
     width: 15%;
 }
+
+#picarrow {
+    position:right;
+    float:right;
+    width: 15%; 
+}
 #lilbee1 {
     position: static;
     float: left;
@@ -84,6 +89,20 @@ h1 {
     left: 5em;
     width: 90%;
     text-align: justify;
+}
+#pictimtim{
+    position: static;
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+    width: 200px;
+}
+#pic-css{
+    position: static;
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+    width: 100px;
 }
 #definition2a {
     color: rgb(194, 133, 194);
@@ -227,6 +246,8 @@ h4 {
 h5 {
     font-size: 1.5em;
 }
+
+
 <!---examples CSS HTML page --->
 
 

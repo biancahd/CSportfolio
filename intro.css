@@ -11,6 +11,10 @@
     font-family:"Tahoma";
     margin: 0px 0px 200px 200px;
     color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+     
  }
 
 p, li, #definition2a {
@@ -27,11 +31,50 @@ h1 {
 #picbee {
     position:static;
     float:left;
-    margin-left: 1.5%;
+    margin-left: 5%;
     margin-right: 2%;
-    width: 19%;
+    width: 50%;
+    z-index: 4;
+}
+#part{
+   position:static;
+    float:center;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 30%;
 }
 
+#picsummit {
+    position:static;
+    float:right;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 15%;
+}
+
+#picsummit1 {
+    position:static;
+    float:right;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 30%;
+    
+}
+#table1 {
+    width: 500px;
+}
+
+#table2 {
+    width: 220px;
+}
+
+#picbook {
+    position:static;
+    float:right;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 15%;
+}
 #lilbee1 {
     position: static;
     float: left;
@@ -69,12 +112,14 @@ h1 {
 #titlewrapper h1{
     text-align:center;
 }
+
+}
 body, h1, h2{
     position: static;
     line-height: 1.1em;
     text-align: left;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 25%;
 }
 
 h3 {
@@ -136,14 +181,14 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
-<!---table styling---> 
+<!--- styling---> 
 <style> 
 th {
     text-align: left;
     border-bottom: 3px solid black;
 }
 td {
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     padding: 15px;
 }
 
@@ -155,6 +200,9 @@ h1, h3 {
 }
 h1 {
     color: purple;
+}
+h5{
+    line-height: .5em;
 }
 h3,h2, h4, h5 {
     font-family:"Courier New";
@@ -179,5 +227,8 @@ h4 {
 h5 {
     font-size: 1.5em;
 }
+<!---examples CSS HTML page --->
+
+
 </style>
 </head>

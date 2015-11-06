@@ -1,0 +1,30 @@
+/*
+    Document   : navbar.css
+    Created on : 2015-09-08 09:43 PM
+    Author     : biancahd
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
+#navbar{
+}
+
+#navbar li{
+     <ul>
+        <li class="welcome"><a href="index.html">Welcome.</a></li>
+        <li class="coding"><a href="coding.html">Coding.</a></li>
+        <li class="beesbio"><a href="about_me.html">Bee.</a></li>
+        <li class="hardware"><a href="hardware.html">Hardware.</a></li>
+      </ul>
+)
+   
+}
+
+<div class="nav">
+     
+  </header>

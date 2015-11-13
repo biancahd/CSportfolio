@@ -8,14 +8,17 @@ var info2 = document.getElementById("girls-info");
 var info3 = document.getElementById("interns-info");
 var info4 = document.getElementById("bonfire-info");
 
-//fun facts about each photo//
+//fun facts about each photo://
+
+//seattle//
 seattle.addEventListener("click", function(){
     info1.innerHTML ="Seattle in the Rain" ;
     info2.innerHTML = " - taken in Queen Anne";
     info3.innerHTML = " - FUN FACT: that's the Space Needlein the background";    
     info4.innerHTML = " - notes: it doesn't actually rain that much in Seattle... I think";
 });
-                       
+ 
+//girls at the EMP//                      
 girlsemp.addEventListener("click", function(){
     info1.innerHTML ="Girls at the EMP" ;
     info2.innerHTML = " - EMP stands for Experience Music Project, a huge museum based off of Jimmy Hendricks." ;
@@ -24,6 +27,7 @@ girlsemp.addEventListener("click", function(){
 
 });
 
+//interns at the Gum Wall//
 interns.addEventListener("click", function(){
     info1.innerHTML ="Interns " ;
     info2.innerHTML = " - The interns at the Seattle Gum Wall. EW." ;
@@ -32,6 +36,7 @@ interns.addEventListener("click", function(){
 
 });
 
+//bonfire at Golden Gardens//
 bonfire.addEventListener("click", function(){
     info1.innerHTML ="Bonfire " ;
     info2.innerHTML = " - My Seattle friends." ;

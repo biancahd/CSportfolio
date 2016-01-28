@@ -29,6 +29,18 @@ h1 {
     font-size: 4em;
     border-bottom: 5px solid la;
 }
+
+#counter_results {
+    float: inline;
+    margin-left: 40%;
+}
+#countertext{
+    float: fixed;
+    margin-left:15%;
+    color: purple;
+    ;
+}
+
 #picbee {
     position:static;
     float:left;
@@ -133,7 +145,8 @@ h1 {
     text-align:center;
 }
 
-}
+
+
 body, h1, h2{
     position: static;
     line-height: 1.1em;
@@ -149,8 +162,7 @@ h3 {
     
 }
 
-<head> 
-<!---nav bar--->
+
 body {
   margin: 0;
   padding: 0;
@@ -201,8 +213,9 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
-<!--- styling---> 
-<style> 
+
+
+
 th {
     text-align: left;
     border-bottom: 3px solid black;
@@ -212,7 +225,7 @@ td {
     padding: 15px;
 }
 
-<!---headings---> 
+
 h1, h3 {
     text-align: left;
     border-bottom: 2.5px solid purple;
@@ -233,7 +246,7 @@ h2{
     font-size: 1.2em;
     color: purple;
 }
-<p align="left">
+
 
 h3{
    color: rgb(121,44,133);
@@ -248,9 +261,63 @@ h5 {
     font-size: 1.5em;
 }
 
+h6 {
+    font-size: .75em;
+    font-family: courier;
+    color: grey;
+    line-height: .8em;
+    margin-left: 40%;
+}
 
-<!---examples CSS HTML page --->
-
-
-</style>
-</head>
+#analyze {
+   border-top: 1px solid #aaa0b0;
+   background: #a84689;
+   background: -webkit-gradient(linear, left top, left bottom, from(#692e66), to(#a84689));
+   background: -webkit-linear-gradient(top, #692e66, #a84689);
+   background: -moz-linear-gradient(top, #692e66, #a84689);
+   background: -ms-linear-gradient(top, #692e66, #a84689);
+   background: -o-linear-gradient(top, #692e66, #a84689);
+   padding: 13.5px 27px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Courier;
+   text-decoration: none;
+   vertical-align: middle;
+   float: right;
+   margin-right: 30%;
+   
+  
+   }
+#analyze:hover {
+   border-top-color: lightcoral;
+   background: lightcoral;
+   color: purple;
+   }
+   
+#analyze:active {
+   border-top-color: #8c2a6a;
+   background: #8c2a6a;
+   }
+   
+   body {
+    background-color: lavenderblush;
+    font-family:"Tahoma";
+    margin: 0px 0px 1em 2em;
+    color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+     
+ }
+ 
+#textbox1 {
+    font-family:"Helvetica"";
+    margin: 0px 0px 100px 200px;
+    color: orchid;
+}

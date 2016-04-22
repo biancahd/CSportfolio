@@ -14,7 +14,7 @@ var info4 = document.getElementById("bonfire-info");
 seattle.addEventListener("click", function(){
     info1.innerHTML ="Seattle in the Rain" ;
     info2.innerHTML = " - taken in Queen Anne";
-    info3.innerHTML = " - FUN FACT: that's the Space Needlein the background";    
+    info3.innerHTML = " - FUN FACT: that's the Space Needle in the background";    
     info4.innerHTML = " - notes: it doesn't actually rain that much in Seattle... I think";
 });
  

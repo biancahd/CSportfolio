@@ -26,7 +26,7 @@ p, li, #definition2a {
 h1 {
     color: orchid;
     font-family:"Courier New";
-    font-size: 4em;
+    font-size: 3em;
     border-bottom: 5px solid la;
 }
 
@@ -250,11 +250,12 @@ h2{
 
 h3{
    color: rgb(121,44,133);
+   font-size: 2em;
 }
 
 h4 {
-    font-size: 3em;
-    color: black;
+    font-size: 2em;
+    color: orchid;
 }
 
 h5 {
@@ -306,7 +307,7 @@ h6 {
    }
    
    body {
-    background-color: lavenderblush;
+    background-color: lavender;
     font-family:"Tahoma";
     margin: 0px 0px 1em 2em;
     color: black;
@@ -320,4 +321,19 @@ h6 {
     font-family:"Helvetica"";
     margin: 0px 0px 100px 200px;
     color: orchid;
+}
+
+h9 {
+ background-color: lavenderblush;
+    font-family:"Courier New";
+    margin: 0px 0px 200px 200px;
+    color: black;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+#code {
+    background-color: lavenderblush;
+
 }

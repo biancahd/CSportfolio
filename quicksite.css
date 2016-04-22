@@ -1,0 +1,75 @@
+  body {
+    background-color: lavender;
+    font-family:"Tahoma";
+    margin: 0px 0px 1em 2em;
+    color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+     
+ }
+ 
+ 
+p, h1, li{
+    margin-left: 4%;
+    width: 90%;
+    text-align: justify;
+    font-family: "Courier New";
+}
+
+h1 {
+    color: purple;
+    font-family:"Courier New";
+    font-size: 2em;
+    border-bottom: .4px solid purple;
+}
+
+#submit {
+   border-top: 1px solid #aaa0b0;
+   background: #a84689;
+   background: -webkit-gradient(linear, left top, left bottom, from(#692e66), to(#a84689));
+   background: -webkit-linear-gradient(top, #692e66, #a84689);
+   background: -moz-linear-gradient(top, #692e66, #a84689);
+   background: -ms-linear-gradient(top, #692e66, #a84689);
+   background: -o-linear-gradient(top, #692e66, #a84689);
+   padding: 13.5px 27px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Courier;
+   text-decoration: none;
+   vertical-align: middle;
+   float: right;
+   margin-right: 30%;
+   
+   }
+   
+#submit:hover {
+   border-top-color: purple;
+   background: purple;
+   color: pink;
+   }
+   
+#submit:active {
+   border-top-color: #8c2a6a;
+   background: #8c2a6a;
+   }
+ 
+ 
+#textbox1 {
+    font-family:"Helvetica"";
+    margin: 0px 0px 100px 100px;
+    color: orchid;
+    background-color: black;
+    opacity: 0.6;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 5px solid;
+}

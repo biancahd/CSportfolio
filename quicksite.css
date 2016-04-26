@@ -1,8 +1,8 @@
   body {
-    background-color: lavender;
+    background-color: #523750;    
     font-family:"Raleway";
     margin: 0px 0px 1em 2em;
-    color: black;
+    color: pink;
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 5%;
@@ -18,10 +18,10 @@ p, h1, li{
 }
 
 h1 {
-    color: purple;
+    color: pink;
     font-family:"Raleway";
-    font-size: 2em;
-    border-bottom: .4px solid purple;
+    font-size: 1.5em;
+    border-bottom: .4px pink;
 }
 
 #submit {

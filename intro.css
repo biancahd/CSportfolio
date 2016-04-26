@@ -165,12 +165,11 @@ h3 {
 body {
   margin: 0;
   padding: 0;
-  background: #795476;
 }
  
 .nav ul {
   list-style: none;
-  background-color: #552B5D; /*ashy purple */
+  background-color: #C2939B;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -191,7 +190,7 @@ body {
 }
  
 .nav a:hover {
-  background-color:#A39BDA;
+  background-color:#E8C8E8;
 }
  
 .nav a.active {
@@ -330,7 +329,7 @@ h9 {
             -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
        text-shadow: 
             rgba(0,0,0,.4) 0 1px 0;
-       color: white;
+       color: #F1E4F2;
        font-size: 16px;
        font-family: "Raleway";
        text-decoration: none;

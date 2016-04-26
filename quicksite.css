@@ -1,6 +1,6 @@
   body {
     background-color: lavender;
-    font-family:"Tahoma";
+    font-family:"Raleway";
     margin: 0px 0px 1em 2em;
     color: black;
     margin-right: 15%;
@@ -14,12 +14,12 @@ p, h1, li{
     margin-left: 4%;
     width: 90%;
     text-align: justify;
-    font-family: "Courier New";
+    font-family: "Raleway";
 }
 
 h1 {
     color: purple;
-    font-family:"Courier New";
+    font-family:"Raleway";
     font-size: 2em;
     border-bottom: .4px solid purple;
 }

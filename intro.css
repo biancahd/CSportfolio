@@ -8,10 +8,10 @@
 */
 
  body {
-    background-color: lavenderblush;
-    font-family:"Tahoma";
+    background-color: #523750; /*dark purple nav bar color*/
+    font-family:"Raleway";
     margin: 0px 0px 200px 200px;
-    color: black;
+    color: pink;
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 5%;
@@ -25,9 +25,9 @@ p, li, #definition2a {
 }
 h1 {
     color: orchid;
-    font-family:"Courier New";
-    font-size: 3em;
-    border-bottom: 5px solid la;
+    font-family:"Raleway";
+    font-size: 1em;
+    border-bottom: 5px solid #70396C; /*orchid*/
 }
 
 #counter_results {
@@ -37,7 +37,7 @@ h1 {
 #countertext{
     float: fixed;
     margin-left:15%;
-    color: purple;
+    color: #70396C; /*orchid*/
     ;
 }
 
@@ -118,26 +118,26 @@ h1 {
     width: 100px;
 }
 #definition2a {
-    color: rgb(194, 133, 194);
+    color: #D20BC5; /*magenta*/
 }
 #defcs {
     left: 10em;
-    color: rgb(194, 133, 194);
+    color: #D20BC5;/*magenta*/
 }
 #smallf {
-    font-size: black .8 em;
-    font-family:"Courier New"
+    font-size: pink .8 em;
+    font-family:"Raleway"
 }
 #definition1 {
-    font-family:"Courier New";
+    font-family:"Raleway";
     font-size: 2em;
 }
 #smallfont {
-    font-family:"Tahoma";
+    font-family:"Raleway";
     font-size: .9em;
 }
 #serifff {
-    color: black;
+    color: pink;
     font-family:"Serif";
 }
 
@@ -156,9 +156,8 @@ body, h1, h2{
 }
 
 h3 {
-    font-family: "Courier New";
+    font-family: "Raleway";
     font-weight: bolder;
-    border-bottom: 2.5px solid purple;
     
 }
 
@@ -166,22 +165,22 @@ h3 {
 body {
   margin: 0;
   padding: 0;
-  background: lavenderblush;
+  background: #795476;
 }
  
 .nav ul {
   list-style: none;
-  background-color: purple;
+  background-color: #552B5D; /*ashy purple */
   text-align: center;
   padding: 0;
   margin: 0;
 }
 .nav li {
-  font-family: 'Courier New', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid lavender;
+  border-bottom: 1px solid #241F49;
 }
  
 .nav a {
@@ -192,11 +191,11 @@ body {
 }
  
 .nav a:hover {
-  background-color:lightcoral;
+  background-color:#A39BDA;
 }
  
 .nav a.active {
-  background-color: lavenderblush;
+  background-color: #523750; /*ashy*/
   color: hotpink;
   cursor: default;
 }
@@ -218,44 +217,44 @@ body {
 
 th {
     text-align: left;
-    border-bottom: 3px solid black;
+    border-bottom: 3px #460842;
 }
 td {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px #A44C9E;
     padding: 15px;
 }
 
 
 h1, h3 {
     text-align: left;
-    border-bottom: 2.5px solid purple;
-    color: purple;  
+    color: #FCDDFA;  
 }
 h1 {
-    color: purple;
+    color: pink;
 }
 h5{
     line-height: .5em;
 }
+
 h3,h2, h4, h5 {
-    font-family:"Courier New";
+    font-family:"Raleway";
 }
 
 h2{
     text-align: center;
     font-size: 1.2em;
-    color: purple;
+    color: pink;
 }
 
 
 h3{
-   color: rgb(121,44,133);
-   font-size: 2em;
+   color: pink;
+   font-size: 1.2em;
 }
 
 h4 {
     font-size: 2em;
-    color: orchid;
+    color: #FCDDFA;
 }
 
 h5 {
@@ -264,76 +263,97 @@ h5 {
 
 h6 {
     font-size: .75em;
-    font-family: courier;
+    font-family: "Raleway";
     color: grey;
     line-height: .8em;
     margin-left: 40%;
 }
-
-#analyze {
-   border-top: 1px solid #aaa0b0;
-   background: #a84689;
-   background: -webkit-gradient(linear, left top, left bottom, from(#692e66), to(#a84689));
-   background: -webkit-linear-gradient(top, #692e66, #a84689);
-   background: -moz-linear-gradient(top, #692e66, #a84689);
-   background: -ms-linear-gradient(top, #692e66, #a84689);
-   background: -o-linear-gradient(top, #692e66, #a84689);
-   padding: 13.5px 27px;
-   -webkit-border-radius: 18px;
-   -moz-border-radius: 18px;
-   border-radius: 18px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 16px;
-   font-family: Courier;
-   text-decoration: none;
-   vertical-align: middle;
-   float: right;
-   margin-right: 30%;
-   
-  
-   }
-#analyze:hover {
-   border-top-color: lightcoral;
-   background: lightcoral;
-   color: purple;
-   }
-   
-#analyze:active {
-   border-top-color: #8c2a6a;
-   background: #8c2a6a;
-   }
-   
-   body {
-    background-color: lavender;
-    font-family:"Tahoma";
-    margin: 0px 0px 1em 2em;
-    color: black;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 5%;
-     
- }
  
-#textbox1 {
-    font-family:"Helvetica"";
-    margin: 0px 0px 100px 200px;
-    color: orchid;
-}
-
 h9 {
- background-color: lavenderblush;
-    font-family:"Courier New";
+ background-color: #523750;
+    font-family:"Raleway";
     margin: 0px 0px 200px 200px;
-    color: black;
+    color: pink;
     margin-right: 35%;
     margin-left: 35%;
     margin-bottom: 5%;
 }
 
 #code {
-    background-color: lavenderblush;
+    background-color: #523750;
 
 }
+
+/*word count page */
+    h3, #title {
+        color: #C89EC5;
+        font-size: 2em;
+    }
+    
+    ol, p {
+        color: pink;
+    }
+    
+    body {
+        font-family:"Raleway";
+        margin: 0px 0px 200px 200px;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+        letter-spacing: .25px;
+    }
+    
+    #name {
+        color: #B67FB2;
+        margin-left: 7%;   
+    }
+    }
+    
+    #textbox1 {
+        font-family:"Raleway";
+    }
+    
+    #analyze {
+       border: 1px solid #573D56;
+       background: #a84689;
+       background: -webkit-gradient(linear, left top, left bottom, from(#692e66), to(#a84689));
+       background: -webkit-linear-gradient(top, #692e66, #a84689);
+       background: -moz-linear-gradient(top, #692e66, #a84689);
+       background: -ms-linear-gradient(top, #692e66, #a84689);
+       background: -o-linear-gradient(top, #692e66, #a84689);
+       padding: 
+            13.5px 27px;
+             -webkit-border-radius: 28px;
+             -moz-border-radius: 28px;
+       border-radius: 18px;
+            -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+            -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+       text-shadow: 
+            rgba(0,0,0,.4) 0 1px 0;
+       color: white;
+       font-size: 16px;
+       font-family: "Raleway";
+       text-decoration: none;
+       vertical-align: middle;
+    }
+  
+    #countertext, #name, #analyze, #textbox1 {
+        margin-left: 10%; 
+    }
+   
+    #analyze:hover {
+       border-color: #AAA0B0;
+       background: #E8C8E8;
+       color: #573D56;
+   }
+   
+    #analyze:active {
+       border-color: #8c2a6a;
+       background: #8c2a6a;
+  }
+
+    #name {
+        letter-spacing: 5px;
+    }
+    
+/*word count "COUNT." app made at FB techstart awards hackathon*/
